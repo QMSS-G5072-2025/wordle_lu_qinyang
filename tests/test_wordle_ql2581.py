@@ -1,9 +1,9 @@
-from wordle_ql2581 import wordle_ql2581
-
-# tests/test_wordle.py
-
-import pytest
-from wordle_ql2581.wordle_ql2581 import validate_guess, check_guess
+from wordle_ql2581 import (
+    validate_guess,
+    check_guess,
+    is_valid_word,
+    calculate_game_score,
+)
 
 def test_validate_guess():
     """
